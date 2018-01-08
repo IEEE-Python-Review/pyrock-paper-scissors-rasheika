@@ -1,5 +1,9 @@
 import random
 
+def play():
+  """
+  This function simply returns the option the player selected.
+  """
 def Computer():
 	"""
   This function should simply return the computers SINGLE choice of rock, paper, or scissors IN LOWERCASE
@@ -8,7 +12,7 @@ def Computer():
 def Human():
 	"""
   This function should display a menu, prompting the player to select either rock, paper, or scissors and return what the player 
-  selected IN LOWERCASE . If the player selects an invalid option, RETURN the error message "Invalid Play"
+  selected IN LOWERCASE . If the player selects an invalid option, display the error message "Invalid Play"
   """
 
 def main():
