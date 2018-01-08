@@ -1,5 +1,4 @@
 import random
-moves = ["rock", "paper", "scissors"]
 
 def Computer():
 	"""
