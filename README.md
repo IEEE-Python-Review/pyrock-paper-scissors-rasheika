@@ -13,6 +13,7 @@ Choose the number that corresponds with the move you want to make
 \> 1
 
 rock vs paper
+
 Computer won
 
 1. Rock
@@ -24,6 +25,7 @@ Choose the number that corresponds with the move you want to make
 \> 3
 
 scissors vs rock
+
 Computer won
 
 1. Rock
@@ -35,10 +37,13 @@ Choose the number that corresponds with the move you want to make
 \> 2
 
 paper vs scissors
+
 Computer won
 
 Lomar Score: 0
+
 Computer Score: 3
+
 Computer won the best of 3 match
 
 You _MUST_ use the functions provided in pyRockPaperScissors.py to complete this task 
