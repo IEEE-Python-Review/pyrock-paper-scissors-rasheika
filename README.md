@@ -51,14 +51,17 @@ You _MUST_ use the functions provided in pyRockPaperScissors.py to complete this
 
 # Function Descriptions
 
+## play():
+This function simply returns the option the player selected.
+
 ### Computer():
 This function should simply return the computers SINGLE choice of rock, paper, or scissors _IN LOWERCASE_
 
 ## Human():
-This function should display a menu, prompting the player to select either rock, paper, or scissors and return what the player selected _IN LOWERCASE_ . If the player selects an invalid option, display the error message "Invalid Play"
+This function should display a menu, prompting the player to select either *1 for rock, 2 for paper, or 4 scissors* and return what the player selected _IN LOWERCASE_ . If the player selects an invalid option, _RETURN_** the error message "Invalid Play"
 
 ## main():
-This function should prompt the player to enter his/her name, get the player's and computer's play, displays what the player and the computer played and displays who won. For Example:
+This function should prompt the player to enter his/her name, get the player and computer play, check if the player made and invalid play and display the message "Invalid Play", displays what the player and the computer played and displays who won. For Example:
 ```
 scissors vs rock
 Computer won
