@@ -7,6 +7,7 @@ Enter Name: Lomar
 1. Rock
 2. Papar
 3. scissors
+
 Choose the number that corresponds with the move you want to make
 
 \> 1
@@ -17,6 +18,7 @@ Computer won
 1. Rock
 2. Papar
 3. scissors
+
 Choose the number that corresponds with the move you want to make
 
 \> 3
@@ -27,6 +29,7 @@ Computer won
 1. Rock
 2. Papar
 3. scissors
+
 Choose the number that corresponds with the move you want to make
 
 \> 2
