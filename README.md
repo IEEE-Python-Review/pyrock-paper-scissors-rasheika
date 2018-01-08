@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/IEEE-Python-Review/RockPaperScissors.svg?branch=master)](https://travis-ci.org/IEEE-Python-Review/RockPaperScissors)
+
 # PyRock Paper Scissors
 ### Recreate this game to match this *EXACT* output
 
