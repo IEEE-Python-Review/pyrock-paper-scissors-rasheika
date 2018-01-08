@@ -4,6 +4,7 @@ def play():
   """
   This function simply returns the option the player selected.
   """
+
 def Computer():
 	"""
   This function should simply return the computers SINGLE choice of rock, paper, or scissors IN LOWERCASE
