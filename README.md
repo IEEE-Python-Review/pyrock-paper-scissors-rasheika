@@ -77,3 +77,12 @@ PlayerName Score: 0
 Computer Score: 3
 Computer won the best of 3 match
 ```
+## Scoring
+* For each win 1 point should be awarded
+* For each draw 0 point should be awarded
+
+## Testing
+Now I have built a testing module you can use to test your solutions to make sure you on the right track. To use the test module simple run it like how you'd run any other python script.
+
+## Submissions
+This will be done via github classroom
