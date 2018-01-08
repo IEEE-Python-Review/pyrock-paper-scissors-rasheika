@@ -9,7 +9,8 @@ Enter Name: Lomar
 3. scissors
 Choose the number that corresponds with the move you want to make
 
-> 1
+\> 1
+
 rock vs paper
 Computer won
 
@@ -18,7 +19,8 @@ Computer won
 3. scissors
 Choose the number that corresponds with the move you want to make
 
-> 3
+\> 3
+
 scissors vs rock
 Computer won
 
@@ -27,7 +29,8 @@ Computer won
 3. scissors
 Choose the number that corresponds with the move you want to make
 
-> 2
+\> 2
+
 paper vs scissors
 Computer won
 
