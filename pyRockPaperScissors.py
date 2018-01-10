@@ -2,6 +2,8 @@ import random
 
 option= ["rock", "paper", "scissors"]
 def play():
+  play= int(input("\nChoose the number that corresponds with the move you want to make\n> "))
+  return play;
   """
   This function simply returns the option the player selected.
   """
@@ -16,15 +18,14 @@ def Computer():
 def Human():
   for x in range(0,3):
     print(str(x+1)+".\t",option[x])
-  play= int(input("\nChoose the number that corresponds with the move you want to make\n> "))
-  #play=play.lower();
-  if play!=1 and play!=2 and play!=3:
+  player=play()
+  if player!=1 and player!=2 and player!=3:
     print("Invalid Play!")
-  elif play==1:
+  elif player==1:
     userplay= option[0]
-  elif play==2:
+  elif player==2:
    userplay= option[1]
-  elif play==3:
+  elif player==3:
     userplay= option[2]
   return userplay
   """
@@ -38,27 +39,29 @@ def main():
   print("Welcome To PyRock Paper Scissors Best of 3\n")
   name=input("Enter Name: ")
   for x in range(1,4):
-    userplay= Human()
-    randomplay= Computer()
-    print("\n",userplay,"vs",randomplay,"\n")
-    if (userplay=="rock" and randomplay=="paper"):
+    user= Human()
+    comp= Computer()
+    print("\n",user,"vs",comp,"\n")
+    if (user=="paper" and comp=="rock"):
       uscore=uscore+1
       print(name,"won")
-    elif (randomplay=="rock" and userplay=="paper"):
+    elif (comp=="paper" and user=="rock"):
       cscore=cscore+1
       print("Computer won")
-    elif (userplay=="scissors" and randomplay=="paper"):
+    elif (user=="scissors" and comp=="paper"):
       uscore=uscore+1
       print(name,"won")
-    elif (randomplay=="scissors" and userplay=="paper"):
+    elif (comp=="scissors" and user=="paper"):
       cscore=cscore+1
       print("Computer won")
-    elif (userplay=="rock" and randomplay=="scissors"):
+    elif (user=="rock" and comp=="scissors"):
       uscore=uscore+1
       print(name,"won")
-    elif (randomplay=="rock" and randomplay=="scissors"):
+    elif (comp=="rock" and user=="scissors"):
       cscore=cscore+1
       print("Computer won")
+    else:
+      print("Draw")
     print("\n")
   print(name,"Score:",uscore)
   print("Computer Score:",cscore)
